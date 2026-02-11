@@ -1,0 +1,14 @@
+{
+  "customizations": {
+    "user": [
+      {
+        "name": "devconf",
+        "password": "devconf123",
+        "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINaSsXSrHvsZyCnszCp5v3aP556inuiomW8kmch8jINO prkumar@prkumar-mac",
+        "groups": [
+          "wheel"
+        ]
+      }
+    ]
+  }
+}

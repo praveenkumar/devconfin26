@@ -1,0 +1,11 @@
+[Unit]
+Description=Load Bootc Embedded Container Images
+Before=gitea.service registry.service
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/load_embedded_images.sh
+
+[Install]
+WantedBy=multi-user.target
