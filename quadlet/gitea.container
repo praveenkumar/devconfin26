@@ -10,7 +10,7 @@ ContainerName=gitea
 PublishPort=3000:3000
 PublishPort=2222:22
 
-Volume=/var/lib/dev-platform/gitea:/data
+Volume=/var/lib/dev-platform/gitea:/data:z
 
 [Service]
 Restart=always
